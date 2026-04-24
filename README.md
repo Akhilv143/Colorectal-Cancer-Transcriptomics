@@ -75,29 +75,12 @@ Global shifts in CRC gene expression are mapped via a Volcano plot, accompanied 
   <img src="results_CRC/03_plots/Heatmap/Heatmap_top25up_top25dn.png" width="48%" alt="Top 50 DEGs Heatmap">
 </p>
 
-### Functional Enrichment (GO & KEGG)
-Elucidation of functional roles across Gene Ontology categories and KEGG pathways driving the transcriptomic signature, compiled into a single high-density collage.
-
-<table align="center" style="width:100%; border:none;">
-  <tr>
-    <td width="50%"><img src="results_CRC/03_plots/enrichment/png/GO_BP_CRC.png" alt="GO Biological Process" width="100%"></td>
-    <td width="50%"><img src="results_CRC/03_plots/enrichment/png/GO_CC_CRC.png" alt="GO Cellular Component" width="100%"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="results_CRC/03_plots/enrichment/png/GO_MF_CRC.png" alt="GO Molecular Function" width="100%"></td>
-    <td width="50%"><img src="results_CRC/03_plots/enrichment/png/KEGG_CRC.png" alt="KEGG Pathways" width="100%"></td>
-  </tr>
-</table>
-
 ### Systems Biology: WGCNA
 Scale-free topology determination, hierarchical clustering, and module-trait relationship heatmaps identifying highly correlated gene clusters within the CRC meta-cohort.
 
-<p align="center">
-  <img src="results_CRC/03_plots/WGCNA/png/Fig1_Network_Topology.png" width="100%" alt="WGCNA Network Topology">
-</p>
-<p align="center">
-  <img src="results_CRC/03_plots/WGCNA/png/Fig2_Module_Trait_Scatters.png" width="100%" alt="WGCNA Module Trait Relationships">
-</p>
+![WGCNA Network Topology](results_CRC/03_plots/WGCNA/png/Fig1_Network_Topology.png)
+
+![WGCNA Module Trait Relationships](results_CRC/03_plots/WGCNA/png/Fig2_Module_Trait_Scatters.png)
 
 ---
 
@@ -109,3 +92,6 @@ Scale-free topology determination, hierarchical clustering, and module-trait rel
 * `results_CRC/03_plots/` : High-fidelity graphical outputs. *Note: Heavy, uncompressed `.tiff` files generated for publication are excluded from version control via `.gitignore`.*
 
 ---
+
+## Authorship & Acknowledgments
+**Akhil V** *Center for Information and Open Data Studies (CIODS), Yenepoya University, Mangaluru.* This computational research pipeline was executed under the direct guidance of **Director Inamul Hasan Madar**.
