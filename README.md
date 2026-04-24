@@ -91,7 +91,4 @@ Scale-free topology determination, hierarchical clustering, and module-trait rel
 * `results_CRC/02_tables/` : Compiled DEG outputs, module assignments, raw/adjusted count matrices, and ORA results.
 * `results_CRC/03_plots/` : High-fidelity graphical outputs. *Note: Heavy, uncompressed `.tiff` files generated for publication are excluded from version control via `.gitignore`.*
 
----
 
-## Authorship & Acknowledgments
-**Akhil V** *Center for Information and Open Data Studies (CIODS), Yenepoya University, Mangaluru.* This computational research pipeline was executed under the direct guidance of **Director Inamul Hasan Madar**.
