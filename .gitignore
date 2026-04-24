@@ -1,0 +1,12 @@
+# Ignore massive image files to prevent GitHub rejection
+*.tiff
+
+# Ignore large R data objects
+*.rds
+
+# Ignore heavy raw data
+*.tsv
+
+# OS generated files
+.DS_Store
+Thumbs.db
