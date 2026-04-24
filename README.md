@@ -26,7 +26,7 @@
 This repository contains a comprehensive and highly rigorous computational pipeline designed for the transcriptomic evaluation of Colorectal Cancer (CRC). Colorectal cancer represents a highly prevalent gastrointestinal malignancy characterized by complex underlying molecular mechanisms and profound tumor heterogeneity. 
 
 A major challenge in transcriptomic meta-analyses is the limited statistical power of individual studies and the technical batch effects that arise when combining datasets across different sequencing platforms or institutions. By systematically integrating independent bulk RNA-seq datasets sourced from the NCBI Gene Expression Omnibus (GEO), this project aims to identify robust, highly confident transcriptomic signatures and co-expression modules associated with CRC tumorigenesis. 
-
+* **Main Analysis Script:** [`r script/colaon_bulk_rna.R`](r%20script/colaon_bulk_rna.R)
 The core of this project relies on a unified R script written to process raw count matrices, apply negative binomial regression to eliminate cross-study technical batch effects, perform differential expression analysis, and execute systems-level weighted gene co-expression network analysis (WGCNA).
 
 ## Datasets Analyzed
